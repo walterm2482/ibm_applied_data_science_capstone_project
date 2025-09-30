@@ -52,44 +52,6 @@ The slide deck (`Presentation.pdf` or LaTeX Beamer source) summarizes methods, f
 
 ---
 
-## Repository layout
-> File names may differ. Adjust as needed.
-
-ibm_applied_data_science_capstone_project/
-├─ notebooks/
-│ ├─ 1_spacex_preprocessing.ipynb
-│ ├─ 2_falcon9_launches_data_wrangling.ipynb
-│ ├─ 3_spacex_launches_analysis.ipynb
-│ ├─ 4_spacex_sql_queries.ipynb
-│ ├─ 5_orbit_success.ipynb
-│ └─ 8_model_selection_comparison.ipynb
-├─ app/
-│ └─ spacex_dash_app.py
-├─ slides/
-│ ├─ presentation.tex
-│ └─ Presentation.pdf
-├─ figures/ # static plots used in notebooks and slides
-│ ├─ average_payload_mass_by_booster_f9.png
-│ ├─ date_of_first_succesful_landing.png
-│ ├─ failed_landing_outcomes_2015.png
-│ ├─ knn_confusion_matrix.png
-│ ├─ landing_outcomes_such_as_failure_drone_ship.png
-│ ├─ launch_localizations.png
-│ ├─ launch_sites_vs_flight_number.png
-│ ├─ launch_sites_vs_payload_mass.png
-│ ├─ missing_values.png
-│ ├─ number_occurrences_for_each_orbit.png
-│ ├─ orbit_vs_payload_mass.png
-│ ├─ payload_mass_vs_flight_number.png
-│ ├─ scheme.png
-│ ├─ spacex_launch_records_dashboard.png
-│ ├─ succes_rate_vs_orbit.png
-│ ├─ success_launches_rates.png
-│ ├─ total_payload_mass_nasa.png
-│ └─ tree_confusion_matrix.png / svm_confusion_matrix.png
-├─ README.md
-└─ requirements.txt # optional, see below
-
 ---
 
 ## Data sources
